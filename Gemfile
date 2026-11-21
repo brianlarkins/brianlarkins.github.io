@@ -1,4 +1,13 @@
 source 'https://rubygems.org'
+
+# Standard libraries that are no longer bundled by default in Ruby 3.4+/4.0
+# but are still required by Jekyll 4.3 and its plugins.
+gem 'base64'
+gem 'bigdecimal'
+gem 'csv'
+gem 'logger'
+gem 'ostruct'
+
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'

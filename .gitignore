@@ -9,3 +9,8 @@ _site
 Gemfile.lock
 vendor
 
+
+# Private Claude Code notes and settings (never published)
+CLAUDE.md
+CLAUDE.local.md
+.claude/

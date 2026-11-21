@@ -2,25 +2,43 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Associate Professor and Chair of <a href="https://www.cs.rhodes.edu">Computer Science</a> at <a href="https://www.rhodes.edu">Rhodes College</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: larkins.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>213 Briggs Hall</p>
+    <p>Rhodes College</p>
+    <p>2000 N. Parkway</p>
+    <p>Memphis, TN 38112</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**A supercomputer is only fast if all of its processors stay busy.** I build the
+software that keeps them busy, and that makes them easier to program.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm an Associate Professor and Chair of Computer Science at
+[Rhodes College](https://www.rhodes.edu) in Memphis, Tennessee. My research is in
+parallel and high-performance computing (HPC): programming models and runtime
+systems for irregular applications, and lately, new ways to use the network
+hardware itself to balance work across a machine. I do most of this work with
+Rhodes undergraduates. I also led the effort to bring HPC to Rhodes. *lotus*, the
+NSF-funded cluster I brought to Briggs Hall, is now a shared research computing
+resource for the whole campus. [More about my research &rarr;]({{ '/research/' | relative_url }})
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In the classroom, I teach much of the systems curriculum, along with parallel
+computing, compilers, and study-abroad courses in the United Kingdom and Japan. I
+teach because I'm passionate about learning, and in 2021 I received Rhodes College's
+[Clarence Day Award for Outstanding Teaching](https://news.rhodes.edu/stories/profs-larkins-and-newstok-receive-2021-clarence-day-awards).
+[More about my teaching &rarr;]({{ '/teaching/' | relative_url }})
+
+Before Rhodes, I taught at Coastal Carolina University, earned my Ph.D. at Ohio
+State, and spent a decade in industry at Bell Labs and two startups. Outside of
+work, I'm into photography, reef keeping, cooking, and coffee. Here are
+[some of my photos]({{ '/photos/' | relative_url }}).

@@ -1,84 +1,289 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+% Publications for D. Brian Larkins.
+%
+% Conventions used by the al-folio theme (see _layouts/bib.html):
+%   abbr         venue badge shown to the left of each entry
+%   selected     {true} = also listed under "selected publications" on the home page
+%   pdf / html   buttons linking to the paper (ACM papers are open access in the ACM DL)
+%   code         button linking to the source code
+%   bibtex_show  {true} = adds a "Bib" button that reveals the BibTeX
+%   A trailing "†" on a last name marks an undergraduate co-author.
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+% ---------------------------------------------------------------------------
+% Rhodes College
+% ---------------------------------------------------------------------------
+
+@inproceedings{larkins2027systems,
+  abbr        = {SIGCSE},
+  title       = {Systems Thinking After the Silver Bullet: A Co-Designed Hardware/Software Foundation for the Liberal-Arts {CS} Major},
+  author      = {Larkins, D. Brian and Lang, Marion},
+  booktitle   = {Proceedings of the 58th ACM Technical Symposium on Computer Science Education (SIGCSE TS '27)},
+  publisher   = {ACM},
+  year        = {2027},
+  month       = feb,
+  note        = {To appear. Sacramento, CA. Acceptance rate: 25.8\%},
+  selected    = {true},
+  bibtex_show = {true},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{cartier2021optimizing,
+  abbr        = {ICPP},
+  title       = {Optimizing Work Stealing Communication with Structured Atomic Operations},
+  author      = {Cartier†, Hannah and Dinan, James and Larkins, D. Brian},
+  booktitle   = {Proceedings of the 50th International Conference on Parallel Processing (ICPP '21)},
+  pages       = {36:1--36:10},
+  publisher   = {ACM},
+  year        = {2021},
+  month       = aug,
+  doi         = {10.1145/3472456.3472522},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3472456.3472522},
+  code        = {https://github.com/brianlarkins/saws},
+  note        = {Acceptance rate: 26\%},
+  selected    = {true},
+  bibtex_show = {true},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{larkins2019accelerated,
+  abbr        = {ICPP},
+  title       = {Accelerated Work Stealing},
+  author      = {Larkins, D. Brian and Snyder†, John and Dinan, James},
+  booktitle   = {Proceedings of the 48th International Conference on Parallel Processing (ICPP '19)},
+  publisher   = {ACM},
+  year        = {2019},
+  month       = aug,
+  doi         = {10.1145/3337821.3337878},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3337821.3337878},
+  code        = {https://github.com/brianlarkins/paws},
+  note        = {Acceptance rate: 26\%},
+  selected    = {true},
+  bibtex_show = {true},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{larkins2018efficient,
+  abbr        = {ICPP},
+  title       = {Efficient Runtime Support for a Partitioned Global Logical Address Space},
+  author      = {Larkins, D. Brian and Snyder†, John and Dinan, James},
+  booktitle   = {Proceedings of the 47th International Conference on Parallel Processing (ICPP '18)},
+  pages       = {70:1--70:10},
+  publisher   = {ACM},
+  year        = {2018},
+  month       = aug,
+  doi         = {10.1145/3225058.3225092},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3225058.3225092},
+  code        = {https://github.com/brianlarkins/pdht},
+  note        = {Acceptance rate: 29\%},
+  selected    = {true},
+  bibtex_show = {true},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{chipman2018evaluating,
+  abbr        = {CCSC-MS},
+  title       = {Evaluating Computer Science Camp Topics in Increasing Girls' Confidence in Computer Science},
+  author      = {Chipman†, Hannah and Adams, Haley and Sanders, Betsy and Larkins, D. Brian},
+  booktitle   = {16th Annual Consortium for Computing Sciences in Colleges Mid-South Conference (CCSC-MS '18)},
+  year        = {2018},
+  month       = apr,
+  bibtex_show = {true},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{larkins2016extending,
+  abbr        = {COMHPC},
+  title       = {Extending a Message Passing Runtime to Support Partitioned, Global Logical Address Spaces},
+  author      = {Larkins, D. Brian and Dinan, James},
+  booktitle   = {Proceedings of the First International Workshop on Communication Optimizations in HPC (COMHPC '16)},
+  pages       = {11--16},
+  publisher   = {IEEE},
+  year        = {2016},
+  month       = nov,
+  doi         = {10.1109/COMHPC.2016.007},
+  html        = {https://doi.org/10.1109/COMHPC.2016.007},
+  pdf         = {larkins-comhpc16.pdf},
+  code        = {https://github.com/brianlarkins/pdht},
+  note        = {Acceptance rate: 34.8\%},
+  bibtex_show = {true},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+% ---------------------------------------------------------------------------
+% Coastal Carolina University
+% ---------------------------------------------------------------------------
+
+@inproceedings{whetstone2014gpu,
+  abbr        = {ACMSE},
+  title       = {{GPU} Acceleration of the Advanced Regional Prediction System ({ARPS})},
+  author      = {Whetstone†, Benjamin A. and Limpasuvan, Varavut and Larkins, D. Brian},
+  booktitle   = {Proceedings of the 52nd ACM Southeast Conference (ACMSE '14)},
+  pages       = {55:1--55:6},
+  publisher   = {ACM},
+  year        = {2014},
+  month       = mar,
+  doi         = {10.1145/2638404.2735458},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/2638404.2735458},
+  note        = {Acceptance rate: 36\%},
+  bibtex_show = {true},
+}
+
+@inproceedings{larkins2013fpgas,
+  abbr        = {SIGCSE},
+  title       = {Using {FPGAs} as a Reconfigurable Teaching Tool Throughout {CS} Systems Curriculum},
+  author      = {Larkins, D. Brian and Jones, William M. and Rickard, H. Erin},
+  booktitle   = {Proceedings of the 44th ACM Technical Symposium on Computer Science Education (SIGCSE '13)},
+  pages       = {397--402},
+  publisher   = {ACM},
+  year        = {2013},
+  month       = mar,
+  doi         = {10.1145/2445196.2445316},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/2445196.2445316},
+  note        = {Acceptance rate: 37.9\%},
+  bibtex_show = {true},
+}
+
+@inproceedings{larkins2013cognitive,
+  abbr        = {SIGCSE},
+  title       = {Application of the Cognitive Apprenticeship Framework to a Middle School Robotics Camp},
+  author      = {Larkins, D. Brian and Moore, J. Christopher and Rubbo, Louis J. and Covington†, Laura R.},
+  booktitle   = {Proceedings of the 44th ACM Technical Symposium on Computer Science Education (SIGCSE '13)},
+  pages       = {89--94},
+  publisher   = {ACM},
+  year        = {2013},
+  month       = mar,
+  doi         = {10.1145/2445196.2445226},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/2445196.2445226},
+  note        = {Acceptance rate: 37.9\%},
+  bibtex_show = {true},
+}
+
+@inproceedings{larkins2012improving,
+  abbr        = {ACMSE},
+  title       = {Improving Data Locality for Irregular Partitioned Global Address Space Parallel Programs},
+  author      = {Larkins, D. Brian},
+  booktitle   = {Proceedings of the 50th ACM Southeast Conference (ACMSE '12)},
+  pages       = {280--285},
+  publisher   = {ACM},
+  year        = {2012},
+  month       = mar,
+  doi         = {10.1145/2184512.2184577},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/2184512.2184577},
+  note        = {Acceptance rate: 57\%},
+  bibtex_show = {true},
+}
+
+@inproceedings{larkins2011targeting,
+  abbr        = {ACMSE},
+  title       = {Targeting {FPGA}-based Processors for an Implementation-Driven Compiler Construction Course},
+  author      = {Larkins, D. Brian and Jones, William M.},
+  booktitle   = {Proceedings of the 49th ACM Southeast Conference (ACMSE '11)},
+  pages       = {31--35},
+  publisher   = {ACM},
+  year        = {2011},
+  month       = mar,
+  doi         = {10.1145/2016039.2016056},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/2016039.2016056},
+  note        = {Acceptance rate: 50\%},
+  bibtex_show = {true},
+}
+
+@inproceedings{jones2011integrating,
+  abbr        = {ACMSE},
+  title       = {Integrating Digital Logic Design and Assembly Programming Using {FPGAs} in the Classroom},
+  author      = {Jones, William M. and Larkins, D. Brian},
+  booktitle   = {Proceedings of the 49th ACM Southeast Conference (ACMSE '11)},
+  pages       = {13--18},
+  publisher   = {ACM},
+  year        = {2011},
+  month       = mar,
+  doi         = {10.1145/2016039.2016053},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/2016039.2016053},
+  note        = {Acceptance rate: 50\%},
+  bibtex_show = {true},
+}
+
+@article{larkins2010introductory,
+  abbr        = {WTCS},
+  title       = {Introductory Computational Science Using {MATLAB} and Image Processing},
+  author      = {Larkins, D. Brian and Harvey, William},
+  journal     = {Procedia Computer Science},
+  volume      = {1},
+  number      = {1},
+  pages       = {913--919},
+  publisher   = {Elsevier},
+  year        = {2010},
+  month       = jun,
+  doi         = {10.1016/j.procs.2010.04.100},
+  html        = {https://doi.org/10.1016/j.procs.2010.04.100},
+  note        = {Workshop on Teaching Computational Science (WTCS 2010)},
+  bibtex_show = {true},
+}
+
+% ---------------------------------------------------------------------------
+% The Ohio State University
+% ---------------------------------------------------------------------------
+
+@inproceedings{dinan2009scalable,
+  abbr        = {SC},
+  title       = {Scalable Work Stealing},
+  author      = {Dinan, James and Larkins, D. Brian and Sadayappan, P. and Krishnamoorthy, Sriram and Nieplocha, Jarek},
+  booktitle   = {Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis (SC '09)},
+  pages       = {53:1--53:11},
+  publisher   = {ACM},
+  year        = {2009},
+  month       = nov,
+  doi         = {10.1145/1654059.1654113},
+  html        = {https://doi.org/10.1145/1654059.1654113},
+  pdf         = {dinan-sc09.pdf},
+  note        = {Acceptance rate: 23\%},
+  selected    = {true},
+  bibtex_show = {true},
+}
+
+@inproceedings{larkins2008global,
+  abbr        = {SC},
+  title       = {Global Trees: A Framework for Linked Data Structures on Distributed Memory Parallel Systems},
+  author      = {Larkins, D. Brian and Dinan, James and Krishnamoorthy, Sriram and Parthasarathy, Srinivasan and Rountev, Atanas and Sadayappan, P.},
+  booktitle   = {Proceedings of the 2008 ACM/IEEE Conference on Supercomputing (SC '08)},
+  pages       = {1--13},
+  publisher   = {IEEE},
+  year        = {2008},
+  month       = nov,
+  doi         = {10.1109/SC.2008.5218880},
+  html        = {https://doi.org/10.1109/SC.2008.5218880},
+  pdf         = {larkins-sc08.pdf},
+  note        = {Acceptance rate: 21\%},
+  selected    = {true},
+  bibtex_show = {true},
+}
+
+@inproceedings{dinan2008scioto,
+  abbr        = {ICPP},
+  title       = {Scioto: A Framework for Global-View Task Parallelism},
+  author      = {Dinan, James and Krishnamoorthy, Sriram and Larkins, D. Brian and Nieplocha, Jarek and Sadayappan, P.},
+  booktitle   = {Proceedings of the 37th International Conference on Parallel Processing (ICPP '08)},
+  pages       = {586--593},
+  publisher   = {IEEE},
+  year        = {2008},
+  month       = sep,
+  doi         = {10.1109/ICPP.2008.44},
+  html        = {https://doi.org/10.1109/ICPP.2008.44},
+  pdf         = {dinan-icpp08.pdf},
+  note        = {Acceptance rate: 30.8\%},
+  bibtex_show = {true},
+}
+
+% ---------------------------------------------------------------------------
+% Industry
+% ---------------------------------------------------------------------------
+
+@inproceedings{larkins1999internet,
+  abbr        = {LISA},
+  title       = {Internet Routing and {DNS} Voodoo in the Enterprise},
+  author      = {Larkins, D. Brian},
+  booktitle   = {Proceedings of the 13th USENIX Systems Administration Conference (LISA '99)},
+  pages       = {239--250},
+  publisher   = {USENIX},
+  year        = {1999},
+  month       = nov,
+  html        = {https://www.usenix.org/legacy/publications/library/proceedings/lisa99/larkins.html},
+  pdf         = {larkins-lisa99.pdf},
+  bibtex_show = {true},
 }
