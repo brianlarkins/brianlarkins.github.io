@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 🛎️
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -30,6 +30,7 @@ jobs:
       run: |
         export JEKYLL_ENV=production
         bundle exec jekyll build
+        touch _site/.nojekyll  # serve the built site as-is; skip GitHub's own Jekyll pass
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
