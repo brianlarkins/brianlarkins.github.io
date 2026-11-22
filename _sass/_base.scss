@@ -1038,16 +1038,14 @@ nav[data-toggle="toc"] {
 // Photo galleries with mixed aspect ratios (_pages/photos.md, `rows:` galleries).
 // Each photo's flex-grow is its width/height ratio, so every photo in a row is
 // scaled to the same height and the row spans the full content width.
+// Spacing matches the square-grid galleries: 30px across (the Bootstrap gutter),
+// and mt-3 on the row plus the default figure margin-bottom down.
 .photo-row {
   display: flex;
-  gap: 1rem;
+  column-gap: 30px;
 
   > div {
     min-width: 0;
-  }
-
-  figure {
-    margin: 0;
   }
 
   picture,

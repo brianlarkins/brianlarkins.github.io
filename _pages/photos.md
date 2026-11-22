@@ -13,38 +13,40 @@ nav_order: 7
 #           ratio (1.5 = 3:2, 0.6667 = 2:3, 1.3333 = 4:3, 0.75 = 3:4, 1 = square);
 #           photos in a row are scaled to the same height and fill the full width.
 galleries:
-  - title: united kingdom
-    rows:
-      - photos:
-          - file: harlaxton-manor.jpg
-            ratio: 1.5
-            alt: The front of Harlaxton Manor under a deep blue sky
-          - file: harlaxton-lavender.jpg
-            ratio: 0.6667
-            alt: Lavender in the foreground with a domed building beyond at dusk
-          - file: harlaxton-evening.jpg
-            ratio: 1.5
-            alt: Harlaxton Manor and its gardens in evening light
-      - photos:
-          - file: cambridge-thistles.jpg
-            ratio: 1.5
-            alt: Blue globe thistles and yellow flowers in front of a stone building in Cambridge
-          - file: cambridge-street.jpg
-            ratio: 1.5
-            alt: Black-and-white Cambridge street with a cyclist and a college chapel tower
-          - file: edinburgh-castle.jpg
-            ratio: 1.5
-            alt: Edinburgh Castle on its rock behind tall golden grass
-      - photos:
-          - file: london-eye.jpg
-            ratio: 1.3333
-            alt: Looking up at the spokes and capsules of the London Eye
-          - file: thames-from-eye.jpg
-            ratio: 1.3333
-            alt: The Thames and the Houses of Parliament seen from a London Eye capsule
-          - file: estate-sunset.jpg
-            ratio: 1.3333
-            alt: Fiery sunset over ornate stone gates and a long tree-lined drive
+  - title: black & white
+    photos:
+      - file: fittonia.jpg
+        alt: Fittonia leaves with bright white veins
+      - file: glass-dome.jpg
+        alt: Looking up through a geodesic glass dome beside a concrete wall
+      - file: jellyfish.jpg
+        alt: Spotted jellyfish against a black background
+      - file: espresso.jpg
+        alt: Espresso machine on a kitchen counter
+      - file: ramp.jpg
+        alt: Concrete ramp and railing under a cloudy sky
+      - file: pine-road.jpg
+        alt: Sandy road through a pine forest
+      - file: park-bench.jpg
+        alt: Bench under the trees in a park
+      - file: geodesic.jpg
+        alt: Triangular panels of a geodesic sphere
+      - file: coffee.jpg
+        alt: Pour-over coffee, a mug, and a scone on a café table
+  - title: coast & sky
+    photos:
+      - file: beach-sunset.jpg
+        alt: Sunset over the ocean with two people sitting on the beach
+      - file: boardwalk.jpg
+        alt: Wooden boardwalk leading over the dunes to the beach at dawn
+      - file: dune-sunset.jpg
+        alt: Pink and orange sunset over dune grass
+      - file: pier-sunset.jpg
+        alt: Orange sunset over the water with a covered pier
+      - file: evening-sky.jpg
+        alt: Purple and pink clouds above silhouetted trees
+      - file: dusk.jpg
+        alt: Deep blue dusk sky with a band of orange at the horizon
   - title: japan
     rows:
       - photos:
@@ -90,40 +92,38 @@ galleries:
           - file: pagoda-eaves.jpg
             ratio: 0.6667
             alt: Black-and-white view looking up at the layered eaves of a pagoda
-  - title: black & white
-    photos:
-      - file: fittonia.jpg
-        alt: Fittonia leaves with bright white veins
-      - file: glass-dome.jpg
-        alt: Looking up through a geodesic glass dome beside a concrete wall
-      - file: jellyfish.jpg
-        alt: Spotted jellyfish against a black background
-      - file: espresso.jpg
-        alt: Espresso machine on a kitchen counter
-      - file: ramp.jpg
-        alt: Concrete ramp and railing under a cloudy sky
-      - file: pine-road.jpg
-        alt: Sandy road through a pine forest
-      - file: park-bench.jpg
-        alt: Bench under the trees in a park
-      - file: geodesic.jpg
-        alt: Triangular panels of a geodesic sphere
-      - file: coffee.jpg
-        alt: Pour-over coffee, a mug, and a scone on a café table
-  - title: coast & sky
-    photos:
-      - file: beach-sunset.jpg
-        alt: Sunset over the ocean with two people sitting on the beach
-      - file: boardwalk.jpg
-        alt: Wooden boardwalk leading over the dunes to the beach at dawn
-      - file: dune-sunset.jpg
-        alt: Pink and orange sunset over dune grass
-      - file: pier-sunset.jpg
-        alt: Orange sunset over the water with a covered pier
-      - file: evening-sky.jpg
-        alt: Purple and pink clouds above silhouetted trees
-      - file: dusk.jpg
-        alt: Deep blue dusk sky with a band of orange at the horizon
+  - title: united kingdom
+    rows:
+      - photos:
+          - file: harlaxton-manor.jpg
+            ratio: 1.5
+            alt: The front of Harlaxton Manor under a deep blue sky
+          - file: harlaxton-lavender.jpg
+            ratio: 0.6667
+            alt: Lavender in the foreground with a domed building beyond at dusk
+          - file: harlaxton-evening.jpg
+            ratio: 1.5
+            alt: Harlaxton Manor and its gardens in evening light
+      - photos:
+          - file: cambridge-thistles.jpg
+            ratio: 1.5
+            alt: Blue globe thistles and yellow flowers in front of a stone building in Cambridge
+          - file: cambridge-street.jpg
+            ratio: 1.5
+            alt: Black-and-white Cambridge street with a cyclist and a college chapel tower
+          - file: edinburgh-castle.jpg
+            ratio: 1.5
+            alt: Edinburgh Castle on its rock behind tall golden grass
+      - photos:
+          - file: london-eye.jpg
+            ratio: 1.3333
+            alt: Looking up at the spokes and capsules of the London Eye
+          - file: thames-from-eye.jpg
+            ratio: 1.3333
+            alt: The Thames and the Houses of Parliament seen from a London Eye capsule
+          - file: estate-sunset.jpg
+            ratio: 1.3333
+            alt: Fiery sunset over ornate stone gates and a long tree-lined drive
 ---
 
 <div class="row align-items-center">
