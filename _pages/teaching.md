@@ -76,9 +76,11 @@ query languages.
 **COMP 105: Transformational Ideas in Computing from the United Kingdom** (Summer 2024).
 A three-week course on the foundations of computing, in both theory and early
 implementations. It focuses on the contributions of Alan Turing and John von
-Neumann. Students visit Milton Keynes, Cambridge, London, and Edinburgh to see
-early mechanical and electronic machines such as Babbage's Difference Engine, the
-Jacquard loom, and the Bombe and Colossus computers.
+Neumann. From a home base at Harlaxton Manor, students visit Edinburgh, Bletchley
+Park and The National Museum of Computing in Milton Keynes, Manchester, Cambridge,
+and London to see early mechanical and electronic machines such as Babbage's
+Difference Engine, the Jacquard loom, the Bombe and Colossus, and the Manchester
+Baby.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-7 mt-3 mt-md-0">
