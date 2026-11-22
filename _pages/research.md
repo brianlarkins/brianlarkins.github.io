@@ -67,8 +67,12 @@ Fortran for tensor contraction expressions.
 
 ## Research computing at Rhodes
 
+{% comment %}
+Keep these div tags at column 0: an indented </div> after the bullet list gets
+swallowed into the last list item, and the figure HTML then renders as text.
+{% endcomment %}
 <div class="row">
-  <div class="col-sm-8" markdown="1">
+<div class="col-sm-8" markdown="1">
 
 As principal investigator on the NSF award *CC\* Compute: A High Performance
 Computing Cluster to Accelerate Research, Education and Training at Rhodes
@@ -82,11 +86,11 @@ computing resource. It is also used in my parallel computing course.
 - **Storage:** 350 TB
 - **Interconnect:** 100 Gb/s InfiniBand
 
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/IMG_7578.jpeg" class="img-fluid rounded z-depth-1" alt="The lotus HPC cluster rack" zoomable=true %}
-    <div class="caption">lotus</div>
-  </div>
+</div>
+<div class="col-sm-4 mt-3 mt-md-0">
+  {% include figure.html path="assets/img/IMG_7578.jpeg" class="img-fluid rounded z-depth-1" alt="The lotus HPC cluster rack" zoomable=true %}
+  <div class="caption">lotus</div>
+</div>
 </div>
 
 Rhodes faculty and students can find access information on the department's

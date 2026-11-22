@@ -1034,3 +1034,25 @@ nav[data-toggle="toc"] {
     padding-top: 0.5rem;
   }
 }
+
+// Photo galleries with mixed aspect ratios (_pages/photos.md, `rows:` galleries).
+// Each photo's flex-grow is its width/height ratio, so every photo in a row is
+// scaled to the same height and the row spans the full content width.
+.photo-row {
+  display: flex;
+  gap: 1rem;
+
+  > div {
+    min-width: 0;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  picture,
+  img {
+    display: block;
+    width: 100%;
+  }
+}
