@@ -1,0 +1,15 @@
+{%- comment -%}
+Prominent link to the complete PDF CV, shown under the CV page title.
+Set cv_pdf (file in assets/pdf/) and cv_updated (e.g. "November 2026") in _pages/cv.md.
+{%- endcomment -%}
+{%- if page.cv_pdf -%}
+<div class="cv-download">
+  <a class="cv-download-btn" href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer">
+    <i class="fas fa-file-pdf" aria-hidden="true"></i> Complete CV (PDF)
+  </a>
+  <p class="cv-download-note">
+    The full record, including all publications, talks, grants, and service.
+    {%- if page.cv_updated %}<br>Updated {{ page.cv_updated }}.{% endif %}
+  </p>
+</div>
+{%- endif -%}

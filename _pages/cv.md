@@ -5,5 +5,6 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: larkins-cv.pdf
-description: Highlights from my curriculum vitae. Click the PDF icon for the complete CV, including publications, talks, and service.
+cv_updated: November 2026  # bump whenever assets/pdf/larkins-cv.pdf is replaced
+description: Highlights from my curriculum vitae.
 ---
