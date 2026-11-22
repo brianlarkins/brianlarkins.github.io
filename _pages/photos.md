@@ -53,9 +53,9 @@ galleries:
           - file: kinkakuji.jpg
             ratio: 1.3333
             alt: Kinkaku-ji, the Golden Pavilion, above its pond in Kyoto
-          - file: pagoda.jpg
+          - file: toji-pagoda.jpg
             ratio: 0.6667
-            alt: Five-story wooden pagoda against a pale blue sky
+            alt: The five-story pagoda at Tō-ji in Kyoto against a pale blue sky
           - file: miyajima-torii.jpg
             ratio: 1.5
             alt: The red torii at Miyajima at low tide, with visitors and umbrellas on the wet sand
@@ -89,9 +89,9 @@ galleries:
           - file: miyajima-walkway.jpg
             ratio: 1.5
             alt: Black-and-white shrine walkway looking out to the distant torii across wet tidal flats
-          - file: pagoda-eaves.jpg
+          - file: toji-pagoda-eaves.jpg
             ratio: 0.6667
-            alt: Black-and-white view looking up at the layered eaves of a pagoda
+            alt: Black-and-white view looking up at the layered eaves of the Tō-ji pagoda
   - title: united kingdom
     rows:
       - photos:
@@ -121,9 +121,9 @@ galleries:
           - file: thames-from-eye.jpg
             ratio: 1.3333
             alt: The Thames and the Houses of Parliament seen from a London Eye capsule
-          - file: estate-sunset.jpg
+          - file: harlaxton-sunset.jpg
             ratio: 1.3333
-            alt: Fiery sunset over ornate stone gates and a long tree-lined drive
+            alt: Fiery sunset over Harlaxton Manor's ornate stone gates and long tree-lined drive
 ---
 
 <div class="row align-items-center">
