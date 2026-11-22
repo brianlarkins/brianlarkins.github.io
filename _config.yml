@@ -216,7 +216,6 @@ exclude:
   - docker-compose.yml
   - docker-local.yml
   - reports
-  - refs.bib
   - CLAUDE.md
   - CLAUDE.local.md
 keep_files:
